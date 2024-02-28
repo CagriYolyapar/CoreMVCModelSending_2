@@ -5,6 +5,11 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreMVCModelSending_2", "CoreMVCModelSending_2\CoreMVCModelSending_2.csproj", "{6F781D55-C7CC-4C79-B5BC-580970095F8C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{CFF5C60C-A49D-4FD0-AB0C-895CCE83E330}"
+	ProjectSection(SolutionItems) = preProject
+		Odev.txt = Odev.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

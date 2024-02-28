@@ -60,6 +60,27 @@ namespace CoreMVCModelSending_2.Controllers
 
 
             return View(gpVm);
+
+          
+
+
         }
+
+
+
+        public IActionResult CreateProduct()
+        {
+            //Biz eger BackEnd'den Front End'e bir model göndermiyorsak...Ama buna rağmen Front End sanki bir model karsılıyormus gibi bir ifade kullandıysa bu sefer bu demektir ki Front End Back End'e o tipte bir model gönderiyor...
+            return View();
+        }
+
+
+        [HttpPost]
+        public IActionResult CreateProduct(Product product)
+        {
+            return View();
+
+        }
+
     }
 }
